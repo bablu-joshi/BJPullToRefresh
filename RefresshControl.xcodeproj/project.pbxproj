@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C17960AD1946A62C0083FA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17960AC1946A62C0083FA40 /* Foundation.framework */; };
+		C17960AF1946A62C0083FA40 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17960AE1946A62C0083FA40 /* CoreGraphics.framework */; };
+		C17960B11946A62C0083FA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17960B01946A62C0083FA40 /* UIKit.framework */; };
+		C17960B71946A62C0083FA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C17960B51946A62C0083FA40 /* InfoPlist.strings */; };
+		C17960B91946A62C0083FA40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17960B81946A62C0083FA40 /* main.m */; };
+		C17960BD1946A62C0083FA40 /* BJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17960BC1946A62C0083FA40 /* BJAppDelegate.m */; };
+		C17960C01946A62C0083FA40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17960BE1946A62C0083FA40 /* Main.storyboard */; };
+		C17960C31946A62C0083FA40 /* BJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17960C21946A62C0083FA40 /* BJViewController.m */; };
+		C17960C51946A62C0083FA40 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C17960C41946A62C0083FA40 /* Images.xcassets */; };
+		C17960CC1946A62C0083FA40 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17960CB1946A62C0083FA40 /* XCTest.framework */; };
+		C17960CD1946A62C0083FA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17960AC1946A62C0083FA40 /* Foundation.framework */; };
+		C17960CE1946A62C0083FA40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17960B01946A62C0083FA40 /* UIKit.framework */; };
+		C17960D61946A62C0083FA40 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C17960D41946A62C0083FA40 /* InfoPlist.strings */; };
+		C17960D81946A62C0083FA40 /* RefresshControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C17960D71946A62C0083FA40 /* RefresshControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C17960CF1946A62C0083FA40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C17960A11946A62C0083FA40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17960A81946A62C0083FA40;
+			remoteInfo = RefresshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C17960A91946A62C0083FA40 /* RefresshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefresshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17960AC1946A62C0083FA40 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C17960AE1946A62C0083FA40 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C17960B01946A62C0083FA40 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C17960B41946A62C0083FA40 /* RefresshControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefresshControl-Info.plist"; sourceTree = "<group>"; };
+		C17960B61946A62C0083FA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C17960B81946A62C0083FA40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C17960BA1946A62C0083FA40 /* RefresshControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RefresshControl-Prefix.pch"; sourceTree = "<group>"; };
+		C17960BB1946A62C0083FA40 /* BJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJAppDelegate.h; sourceTree = "<group>"; };
+		C17960BC1946A62C0083FA40 /* BJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJAppDelegate.m; sourceTree = "<group>"; };
+		C17960BF1946A62C0083FA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C17960C11946A62C0083FA40 /* BJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJViewController.h; sourceTree = "<group>"; };
+		C17960C21946A62C0083FA40 /* BJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJViewController.m; sourceTree = "<group>"; };
+		C17960C41946A62C0083FA40 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C17960CA1946A62C0083FA40 /* RefresshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefresshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C17960CB1946A62C0083FA40 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C17960D31946A62C0083FA40 /* RefresshControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefresshControlTests-Info.plist"; sourceTree = "<group>"; };
+		C17960D51946A62C0083FA40 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C17960D71946A62C0083FA40 /* RefresshControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefresshControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C17960A61946A62C0083FA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17960AF1946A62C0083FA40 /* CoreGraphics.framework in Frameworks */,
+				C17960B11946A62C0083FA40 /* UIKit.framework in Frameworks */,
+				C17960AD1946A62C0083FA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17960C71946A62C0083FA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17960CC1946A62C0083FA40 /* XCTest.framework in Frameworks */,
+				C17960CE1946A62C0083FA40 /* UIKit.framework in Frameworks */,
+				C17960CD1946A62C0083FA40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C17960A01946A62C0083FA40 = {
+			isa = PBXGroup;
+			children = (
+				C17960B21946A62C0083FA40 /* RefresshControl */,
+				C17960D11946A62C0083FA40 /* RefresshControlTests */,
+				C17960AB1946A62C0083FA40 /* Frameworks */,
+				C17960AA1946A62C0083FA40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C17960AA1946A62C0083FA40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C17960A91946A62C0083FA40 /* RefresshControl.app */,
+				C17960CA1946A62C0083FA40 /* RefresshControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C17960AB1946A62C0083FA40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C17960AC1946A62C0083FA40 /* Foundation.framework */,
+				C17960AE1946A62C0083FA40 /* CoreGraphics.framework */,
+				C17960B01946A62C0083FA40 /* UIKit.framework */,
+				C17960CB1946A62C0083FA40 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17960B21946A62C0083FA40 /* RefresshControl */ = {
+			isa = PBXGroup;
+			children = (
+				C17960BB1946A62C0083FA40 /* BJAppDelegate.h */,
+				C17960BC1946A62C0083FA40 /* BJAppDelegate.m */,
+				C17960BE1946A62C0083FA40 /* Main.storyboard */,
+				C17960C11946A62C0083FA40 /* BJViewController.h */,
+				C17960C21946A62C0083FA40 /* BJViewController.m */,
+				C17960C41946A62C0083FA40 /* Images.xcassets */,
+				C17960B31946A62C0083FA40 /* Supporting Files */,
+			);
+			path = RefresshControl;
+			sourceTree = "<group>";
+		};
+		C17960B31946A62C0083FA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C17960B41946A62C0083FA40 /* RefresshControl-Info.plist */,
+				C17960B51946A62C0083FA40 /* InfoPlist.strings */,
+				C17960B81946A62C0083FA40 /* main.m */,
+				C17960BA1946A62C0083FA40 /* RefresshControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C17960D11946A62C0083FA40 /* RefresshControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				C17960D71946A62C0083FA40 /* RefresshControlTests.m */,
+				C17960D21946A62C0083FA40 /* Supporting Files */,
+			);
+			path = RefresshControlTests;
+			sourceTree = "<group>";
+		};
+		C17960D21946A62C0083FA40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C17960D31946A62C0083FA40 /* RefresshControlTests-Info.plist */,
+				C17960D41946A62C0083FA40 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C17960A81946A62C0083FA40 /* RefresshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17960DB1946A62C0083FA40 /* Build configuration list for PBXNativeTarget "RefresshControl" */;
+			buildPhases = (
+				C17960A51946A62C0083FA40 /* Sources */,
+				C17960A61946A62C0083FA40 /* Frameworks */,
+				C17960A71946A62C0083FA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RefresshControl;
+			productName = RefresshControl;
+			productReference = C17960A91946A62C0083FA40 /* RefresshControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C17960C91946A62C0083FA40 /* RefresshControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C17960DE1946A62C0083FA40 /* Build configuration list for PBXNativeTarget "RefresshControlTests" */;
+			buildPhases = (
+				C17960C61946A62C0083FA40 /* Sources */,
+				C17960C71946A62C0083FA40 /* Frameworks */,
+				C17960C81946A62C0083FA40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C17960D01946A62C0083FA40 /* PBXTargetDependency */,
+			);
+			name = RefresshControlTests;
+			productName = RefresshControlTests;
+			productReference = C17960CA1946A62C0083FA40 /* RefresshControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C17960A11946A62C0083FA40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BJ;
+				TargetAttributes = {
+					C17960C91946A62C0083FA40 = {
+						TestTargetID = C17960A81946A62C0083FA40;
+					};
+				};
+			};
+			buildConfigurationList = C17960A41946A62C0083FA40 /* Build configuration list for PBXProject "RefresshControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C17960A01946A62C0083FA40;
+			productRefGroup = C17960AA1946A62C0083FA40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C17960A81946A62C0083FA40 /* RefresshControl */,
+				C17960C91946A62C0083FA40 /* RefresshControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C17960A71946A62C0083FA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17960C51946A62C0083FA40 /* Images.xcassets in Resources */,
+				C17960B71946A62C0083FA40 /* InfoPlist.strings in Resources */,
+				C17960C01946A62C0083FA40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17960C81946A62C0083FA40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17960D61946A62C0083FA40 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C17960A51946A62C0083FA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17960C31946A62C0083FA40 /* BJViewController.m in Sources */,
+				C17960BD1946A62C0083FA40 /* BJAppDelegate.m in Sources */,
+				C17960B91946A62C0083FA40 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C17960C61946A62C0083FA40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17960D81946A62C0083FA40 /* RefresshControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C17960D01946A62C0083FA40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C17960A81946A62C0083FA40 /* RefresshControl */;
+			targetProxy = C17960CF1946A62C0083FA40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C17960B51946A62C0083FA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17960B61946A62C0083FA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C17960BE1946A62C0083FA40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17960BF1946A62C0083FA40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C17960D41946A62C0083FA40 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C17960D51946A62C0083FA40 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C17960D91946A62C0083FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C17960DA1946A62C0083FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C17960DC1946A62C0083FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefresshControl/RefresshControl-Prefix.pch";
+				INFOPLIST_FILE = "RefresshControl/RefresshControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C17960DD1946A62C0083FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefresshControl/RefresshControl-Prefix.pch";
+				INFOPLIST_FILE = "RefresshControl/RefresshControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C17960DF1946A62C0083FA40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RefresshControl.app/RefresshControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefresshControl/RefresshControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RefresshControlTests/RefresshControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C17960E01946A62C0083FA40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RefresshControl.app/RefresshControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RefresshControl/RefresshControl-Prefix.pch";
+				INFOPLIST_FILE = "RefresshControlTests/RefresshControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C17960A41946A62C0083FA40 /* Build configuration list for PBXProject "RefresshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17960D91946A62C0083FA40 /* Debug */,
+				C17960DA1946A62C0083FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C17960DB1946A62C0083FA40 /* Build configuration list for PBXNativeTarget "RefresshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17960DC1946A62C0083FA40 /* Debug */,
+				C17960DD1946A62C0083FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C17960DE1946A62C0083FA40 /* Build configuration list for PBXNativeTarget "RefresshControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17960DF1946A62C0083FA40 /* Debug */,
+				C17960E01946A62C0083FA40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C17960A11946A62C0083FA40 /* Project object */;
+}
